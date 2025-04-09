@@ -4,6 +4,6 @@
                        branches: [[name: "${git_branch}"]], 
                         userRemoteConfigs: [[credentialsId:"${git_credentails}",
                        url: "${git_url}"]]])
-            sh 'pwd: ls -lrt'
+            sh 'pwd; ls -lrt'
   
  }
